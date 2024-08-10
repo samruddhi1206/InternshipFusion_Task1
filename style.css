@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Oswald&family=Poppins&family=REM:ital,wght@0,100..900;1,100..900&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+   color: white;
+}
+div{
+    background-color: black;
+}
+.section-1
+{
+    display: flex;
+    gap: 5em;
+}
+.img1{
+    width: 40%;
+}
+.img1 img, .img2 img
+{
+    height: 635px;
+    width: 500px;
+}
+.content1
+{
+    margin-top: 50px;
+}
+.content1 h1{
+    width: 70%;
+    color: rgb(251, 57, 122);
+    font-family: "Oswald", sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+}
+.content1 p{
+    width: 70%;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    word-spacing: 0.3em;
+}
+.section-2
+{
+    display: flex;
+    gap: 5em;
+}
+.content2 h1{
+    color: rgb(251, 57, 122);
+    font-family: "Oswald", sans-serif;
+    font-size: 2.7em;
+    font-weight: bolder;
+}
+.content2{
+    width: 61%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.sub-content{
+    background-color: rgba(149, 133, 133, 0.2);
+    height: 80px;
+}
+.sub-content h3, .sub-content p{
+    margin-left: 20px;
+}
+.sub-content h3{
+    font-family: "Oswald", sans-serif;
+}
+.sub-content p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+}
+.section-3 h1{
+    color: rgb(251, 57, 122);
+    font-family: "Oswald", sans-serif;
+    font-size: 2.9em;
+    font-weight: bolder;
+    margin-top: 90px;
+    margin-left: 15%;
+}
+.sec-3{
+    display: flex;
+    gap: 5em;
+    margin-left: 15%;
+    height: 250px;
+}
+.sub-sec3 h3{
+    color: rgb(251, 57, 122);
+    font-family: "Oswald", sans-serif;
+    font-size: 1.8em;
+}
+.sub-sec3 p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.05em;
+    width: 250px;
+}
+.section-4 h1{
+    margin-left: 15%;
+    color: rgb(251, 57, 122);
+    font-family: "Oswald", sans-serif;
+    font-size: 2.9em;
+    font-weight: bolder;
+}
+.section-4 img
+{
+    width: 100%;
+    height: 200px;
+}
+.contact
+{
+    margin-left: 15%;
+    display: flex;
+    gap: 5em;
+}
+.contact h3{
+    font-family: "Oswald", sans-serif;
+}
+.contact p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.05em;
+    width: 200px;
+}
+.contact-info i{
+    color: rgb(251, 57, 122);
+    font-size: 1.7em;
+}
